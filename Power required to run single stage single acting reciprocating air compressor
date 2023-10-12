@@ -1,0 +1,18 @@
+# Python-coding-for-finding-exit-velocity-of-a-steam-nozzle
+To estimate exit velocity of steam nozzle given the inlet and exit enthalpies and initial velocity and nozzle efficiency 
+def velocity(hi,he):
+     if hi>he:
+                 return sqrt((hi-he)*e*1000+ci^2)
+              if he>hi:
+                 return invalid
+          h1 = input("Enter inlet enthalpy:") #from mollier chart at given inlet pressure and temperature#
+          h2 = input("Enter outlet enthalpy:") #from mollier chart at given outlet pressure#
+          ef = input(" Enter efficiency of nozzle")
+          c = input(“Enter initial velocity”)
+          hi =  float(h1)
+          he = float(h2)
+          e = float(ef/100)
+          ci = float(c)
+          v = velocity (hi,he)
+          print("velocity at the exit of Nozzle",v)
+0 comments on 
